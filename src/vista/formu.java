@@ -100,7 +100,7 @@ public class formu extends JFrame {
 		contentPane.add(lblIdentificacioon);
 		
 		JLabel lblNewLabel_3 = new JLabel("Logotipo");
-		lblNewLabel_3.setBounds(267, 86, 46, 14);
+		lblNewLabel_3.setBounds(267, 86, 58, 14);
 		contentPane.add(lblNewLabel_3);
 		
 		

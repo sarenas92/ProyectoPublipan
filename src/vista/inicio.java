@@ -22,6 +22,9 @@ import javax.swing.JPasswordField;
 import javax.swing.JMenuBar;
 import javax.swing.JMenu;
 import javax.swing.JMenuItem;
+
+import sun.java2d.Disposer;
+
 import java.awt.Button;
 import java.awt.Toolkit;
 
@@ -92,8 +95,9 @@ public class inicio {
 		button.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
-				formu miformulario = new formu();
+				Bolsa miformulario = new Bolsa();
 				miformulario.setVisible(true);
+				miformulario.setDefaultCloseOperation(1);
 			}
 		});
 		button.setBounds(159, 222, 70, 22);
